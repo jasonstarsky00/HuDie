@@ -1,0 +1,468 @@
+/* 头部 S */
+
+.top {
+    width: 100%;
+    height: 50px;
+    background: #34E89F;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    box-shadow: 0 2px 6px #34E89F
+}
+
+.top-nav {
+    height: 50px;
+    margin: 0 auto;
+}
+
+.min {
+    width: 1280px;
+    background: #34E89F;
+}
+
+.logobox {
+    width: 100px;
+    text-align: center;
+}
+
+.logobox img {
+    cursor: pointer;
+}
+
+.menu {
+    width: 600px;
+    height: 50px;
+}
+
+.menu ul {
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.menu li a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.menu li a:hover {
+    color: #409AE5;
+}
+
+.search {
+    width: 200px;
+    height: 50px;
+    padding-right: 46px;
+}
+
+.search input {
+    background: url('../images/search.png') no-repeat transparent;
+    background-size: 30px;
+    background-position: 97% 0px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    height: 32px;
+    margin: 8px 0;
+    padding-right: 46px;
+    padding-left: 30px;
+    width: 80%;
+}
+
+.search input:focus {
+    box-shadow: 0 0 6px #FFFFFF
+}
+
+.search input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.search input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.search input::-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.userbox button {
+    width: 100px;
+    height: 36px;
+    margin: 7px 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.userbox .logo {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0 0 8px #FFFFFF;
+    color: #49AE85;
+}
+
+.userbox .logo:hover {
+    box-shadow: 0 0 0;
+}
+
+.userbox .reg {
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.userbox .reg:hover {
+    box-shadow: 0 0 8px #FFFFFF;
+}
+
+
+/* 头部 E */
+
+
+/* 内容 S */
+
+.main {
+    /* height: 1600px; */
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.main .content {
+    margin-top: 30px;
+    overflow: hidden;
+    height: 500px;
+    background: #FFFFFF;
+}
+
+.content .menu {
+    width: 360px;
+    height: 100%;
+    background: #34E89F;
+    border-radius: 20px;
+    padding-left: 24px;
+}
+
+.menu .titlebox {
+    height: 80px;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.titlebox img {
+    height: 34px;
+    width: 30px;
+    float: left;
+}
+
+.titlebox span {
+    color: #FFFFFF;
+    font-size: 26px;
+    float: left;
+    margin-left: 10px;
+}
+
+.line {
+    height: 2px;
+    width: 300px;
+    background: #FFFFFF;
+}
+
+.typebox {
+    height: 140px;
+    width: 100%;
+}
+
+.typebox .title {
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.title img {
+    height: 28px;
+    width: 28px;
+    float: left;
+}
+
+.title span {
+    color: #FFFFFF;
+    font-size: 20px;
+    float: left;
+    margin-left: 10px;
+}
+
+.typebox .type {
+    height: 18px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.type a {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.type a:hover {
+    color: #409AE5;
+}
+
+.industrybox {
+    height: 140px;
+    width: 100%;
+}
+
+.industrybox .title {
+    overflow: hidden;
+}
+
+.industrybox .type {
+    height: 18px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.usebox {
+    height: 140px;
+    width: 100%;
+}
+
+.usebox .title {
+    overflow: hidden;
+}
+
+.usebox .type {
+    height: 18px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.content .banner {
+    margin-left: 20px;
+    width: 870px;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* 热门ppt S */
+
+.hot .hot-head {
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.head-title span {
+    border-left: 4px solid #34E89F;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.hot .hot-more {
+    height: 40px;
+    width: 80px;
+    background: url('../images/more.png') no-repeat #34E89F;
+    background-size: 20px;
+    background-position: 10px 10px;
+    border: 1px solid #34E89F;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.hot .hot-more:hover {
+    box-shadow: 0 0 6px #34E89F;
+}
+
+.hot .hot-content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.hot .ppt {
+    float: left;
+    width: 23%;
+    height: 600px;
+    background: #FFFFFF;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    margin: 0 1%;
+    margin-top: 22px;
+}
+
+.ppt .pptimg {
+    height: 500px;
+    width: 100%;
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+}
+
+.pptimg img {
+    height: 100%;
+    width: 100%;
+}
+
+.ppt .pptinfo {
+    height: 40px;
+    width: 100%;
+}
+
+.pptinfo p {
+    font-size: 16px;
+    color: #656565;
+    margin: 10px 0 10px 20px;
+}
+
+.pptinfo .scorebox {
+    height: 40px;
+    width: 100%;
+}
+
+.scorebox .score {
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #34E89F;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 6px;
+    border-radius: 2px;
+}
+
+.scorebox .swbox {
+    padding-left: 8px;
+    width: 160px;
+    text-align: left;
+}
+
+.swbox .star {
+    height: 20px;
+    line-height: 17px;
+    width: 160px;
+    font-size: 16px;
+    color: yellow;
+    display: block;
+}
+
+.star img {
+    width: 20px;
+    height: 20px;
+}
+
+.star i {
+    color: red;
+}
+
+.swbox .watch {
+    display: block;
+    width: 100px;
+    height: 20px;
+    background: url('../images/eye.png') no-repeat;
+    background-size: 20px;
+    padding-left: 24px;
+    color: #656565;
+}
+
+.scorebox .download {
+    width: 80px;
+    height: 40px;
+    line-height: 36px;
+    background: url('../images/download.png') no-repeat;
+    background-size: 26px;
+    background-position: 0 5px;
+    font-size: 20px;
+    color: #656565;
+    padding-left: 30px;
+}
+
+.recomm {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+
+/* 热门ppt E */
+
+
+/* 内容 E */
+
+.dongtai {
+    height: 600px;
+    width: 100%;
+    background: red;
+}
+
+
+/* 最小宽度 */
+
+@media(min-width:1681px) {
+    /* 头部 S */
+    .min {
+        width: 1680px;
+        background: #34E89F;
+    }
+    .logobox {
+        width: 150px;
+    }
+    .menu {
+        width: 810px;
+        height: 50px;
+    }
+    .menu li {
+        float: left;
+        text-align: center;
+        padding: 0 30px;
+    }
+    .search {
+        width: 400px;
+        height: 50px;
+        padding-right: 46px;
+    }
+    .userbox {
+        width: 280px;
+        height: 50px;
+        text-align: center;
+    }
+    /* 头部 E */
+    /* 内容 S */
+    .main {
+        /* height: 1600px; */
+        width: 1680px;
+        margin: 0 auto;
+    }
+    .content .banner {
+        margin-left: 20px;
+        width: 1260px;
+        height: 100%;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    /* 内容 E */
+}
