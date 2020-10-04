@@ -7,6 +7,7 @@
     <title>蝴蝶PPT</title>
     <link rel="stylesheet" href="../css/recss.css">
     <link rel="stylesheet" href="../css/Index.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
 </head>
 
 <body>
@@ -551,10 +552,47 @@
             <!-- 精品 E -->
         </div>
         <div class="dongtai">
-
+            <div class="who">
+                <p>谁在用蝴蝶</p>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1
+                        <img src="../images/dog1.PNG" alt="">
+                    </div>
+                    <div class="swiper-slide">Slide 2
+                        <img src="../images/dog2.PNG" alt="">
+                    </div>
+                    <div class="swiper-slide">Slide 3
+                        <img src="../images/dog3.PNG" alt="">
+                    </div>
+                    <div class="swiper-slide">Slide 4
+                        <img src="../images/dog4.PNG" alt="">
+                    </div>
+                    <div class="swiper-slide">Slide 5
+                        <img src="../images/dog5.PNG" alt="">
+                    </div>
+                    <!-- <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">Slide 10</div> -->
+                </div>
+                <!-- Add Arrows -->
+               
+            </div>
         </div>
     </main>
-
+    <script src="../js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            loop: true
+        });
+    </script>
 </body>
 
 </html>
