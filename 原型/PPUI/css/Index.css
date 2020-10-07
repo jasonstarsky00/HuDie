@@ -7,7 +7,7 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0px;
-    /* box-shadow: 0 2px 6px #34E89F */
+    z-index: 999;
 }
 
 .top-nav {
@@ -144,14 +144,12 @@
     margin-top: 30px;
     overflow: hidden;
     height: 400px;
-    background: #FFFFFF;
 }
 
 .content .menu {
     width: 360px;
     height: 100%;
     background: #34E89F;
-    border-radius: 20px;
     padding-left: 24px;
 }
 
@@ -253,10 +251,11 @@
 
 .content .banner {
     margin-left: 20px;
-    width: 870px;
+    width: 900px;
     height: 100%;
-    border-radius: 20px;
     overflow: hidden;
+    position: relative;
+
 }
 
 .banner img {
@@ -268,10 +267,9 @@
 /* 热门ppt S */
 
 .hot .hot-head {
-    margin-top: 20px;
-    height: 50px;
+    margin-top: 30px;
+    height: 40px;
     width: 100%;
-    background: #FFFFFF;
     overflow: hidden;
 }
 
@@ -282,16 +280,14 @@
 }
 
 .hot .hot-more {
-    height: 40px;
+    height: 38px;
     width: 80px;
     background: url('../images/more.png') no-repeat #34E89F;
-    background-size: 20px;
-    background-position: 10px 10px;
+    background-size: 16px;
+    background-position: 54px 10px;
     border: 1px solid #34E89F;
-    border-radius: 10px;
     color: #FFFFFF;
     font-size: 14px;
-    padding-left: 20px;
     cursor: pointer;
     margin-right: 20px;
 }
@@ -311,24 +307,31 @@
     height: 600px;
     background: #FFFFFF;
     border: 1px solid #e5e5e5;
-    border-radius: 10px;
     margin: 0 1%;
-    margin-top: 22px;
+    margin-top: 30px;
 }
 
 .ppt .pptimg {
     height: 500px;
     width: 100%;
-    /* border-radius: 10px; */
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     overflow: hidden;
+    position: relative;
 }
 
-.pptimg img {
-    height: 100%;
-    width: 100%;
+.newimghover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+   
 }
+.pptimg img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width:100%;
+   height: 1500px;
+} 
 
 .ppt .pptinfo {
     height: 40px;
@@ -408,10 +411,7 @@
     margin-top: 10px;
     overflow: hidden;
 }
-.who{
-    width: 100%;
-    height: 200px;
-}
+
 
 /* 热门ppt E */
 
@@ -419,12 +419,149 @@
 /* 内容 E */
 
 .dongtai {
-    height: 600px;
+    margin-top: 40px;
     width: 100%;
-    /* background: red; */
+}
+.who{
+    width: 100%;
+   
+}
+.who h3{
+    text-align: center;
+    color: #25282a;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.who-swiperbox{
+    height: 600px;
+}
+.slidebox{
+    width: 900px;
+    height:400px;
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.05)
+}
+.slidebox .Evaluation{
+    position: absolute;
+    top: -50px;
+    left: 390px;
+    background: url('../images/Evaluation.png') no-repeat;
+    background-size: 100px;
+    height: 100px;
+    width: 100px;
+}
+.slidebox .slidertop{
+    height: 100px;
+    width: 900px;
+    overflow: hidden;
+}
+.slidertop img{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+    background: gold;
+    border-radius: 50%;
+    float: left;
+}
+.slidebox .slidercenter{
+    height: 200px;
+    width: 900px;
+}
+.slidercenter p{
+    height: 200px;
+    line-height: 200px;
+    color: #888888;
+    font-weight: 400;
+}
+.slidebox .sliderfooter{
+    height: 100px;
+    width: 900px;
+}
+.sliderfooter p{
+    color: #333333;
+    float: right;
+    margin-right: 18px;
+    height: 100px;
+    line-height: 100px;
 }
 
+/* 热门模板分类 S */
+.hottemplatebox{
+    width: 100%;
+    height: 20px;
+    margin: 20px 0;
+}
 
+.template{
+    
+    width: 1280px;
+    margin: 0 auto;
+    
+}
+.template-title{
+    height: 20px;
+
+}
+.title-left{
+    height: 20px;
+    width: 80px;
+}
+.title-left p{
+    text-align: right;
+}
+.title-right{
+    height: 20px;
+    width: 1200px;
+    overflow: hidden;
+
+}
+.title-right .title-ceontent{
+    width: 1180px;
+}
+.title-ceontent a{
+    color: #888888;
+    padding: 0 4px;
+}
+.title-ceontent a:hover{
+    color: #409AE5;
+}
+.title-right .title-btn{
+    width: 20px;
+}
+.title-btn img{
+    width: 20px;
+}
+.alinks{
+    display: none;
+    padding-left: 6px;
+}
+.alinks a{
+    padding: 4px 4px;
+   color: #888888;
+}
+.alinks a:hover{
+    color: #409AE5;
+}
+/* 热门模板分类 E */
+
+/* 备案  */
+.footer-copyright{
+    width: 100%;
+    height: 60px;
+    background-color: #25282a;
+    text-align: center;
+}
+.footer-copyright p{
+    display: inline-block;
+    color: #676b6f;
+    padding-top: 20px;
+}
+.footer-copyright a{
+    color: #676b6f;
+}
 /* 最小宽度 */
 
 @media(min-width:1681px) {
@@ -468,8 +605,13 @@
         height: 100%;
         border-radius: 20px;
         overflow: hidden;
+        position: relative;
     }
     /* 内容 E */
+    .hottemplate{
+        width: 1680px;
+        margin: 0 auto;
+    }
 }
 
 .swiper-container {
@@ -479,8 +621,7 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
-
+    background: #eff1f4;
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -495,3 +636,9 @@
     -webkit-align-items: center;
     align-items: center;
   }
+.who-swiperbox .swiper-button-prev, .swiper-button-prev{
+    color: #999999;
+}
+.who-swiperbox .swiper-button-next, .swiper-button-next{
+    color: #999999;
+}
