@@ -141,22 +141,24 @@
 }
 
 .main .content {
-    margin-top: 30px;
+    margin-top: 20px;
     overflow: hidden;
     height: 400px;
 }
 
 .content .menu {
-    width: 360px;
+    width: 300px;
     height: 100%;
-    background: #34E89F;
-    padding-left: 24px;
+    background: #FFFFFF;
+    
 }
 
 .menu .titlebox {
-    height: 80px;
+    height: 62px;
     overflow: hidden;
-    padding: 20px 0;
+    padding-top: 16px;
+    padding-left: 70px;
+
 }
 
 .titlebox img {
@@ -166,25 +168,94 @@
 }
 
 .titlebox span {
-    color: #FFFFFF;
+    color: #4F4F4F;
     font-size: 26px;
     float: left;
     margin-left: 10px;
 }
 
-.line {
-    height: 2px;
-    width: 300px;
+.typebox .typeboxbu{
+    right: 447px;
+    top: 80px;
+    z-index: 100; 
+    width:8px;
+    height:88px;
+    position: absolute;
     background: #FFFFFF;
 }
-
+.industrybox .typeboxbu{
+    right: 447px;
+    top: 80px;
+    z-index: 100; 
+    width:8px;
+    height:88px;
+    position: absolute;
+    background: #FFFFFF;
+}
+.usebox .typeboxbu{
+    right: 447px;
+    top: 134px;
+    z-index: 100; 
+    width:8px;
+    height:88px;
+    position: absolute;
+    background: #FFFFFF;
+}
 .typebox {
     height: 88px;
     width: 100%;
     margin-bottom: 20px;
     margin-top: 16px;
+    position: relative;
+    z-index: 100;
+    padding-left: 24px;
 }
-
+.menu .typebox:hover .typemore,.menu .industrybox:hover .typemore,.menu .usebox:hover .typemore{
+    display: block;
+}
+.menu .typebox:hover,.menu .usebox:hover,.menu .industrybox:hover{
+    box-shadow: 0 0 6px #d9d9d9;
+}
+.typemore{
+    display: none;
+    width: 450px;
+    height: 240px;
+    background: #FFFFFF;
+    position: absolute;
+    left: 300px;
+    top: -78px;
+    z-index: 99;
+    box-shadow: 0 0 6px #d9d9d9;
+}
+.usebox .typemore{
+    top: -134px;
+}
+.typemore .namebox{
+    width: 90%;
+    height: 74px;
+    margin-left: 25px;
+    border-bottom: 1px solid #F5F5F5;
+}
+.typemore .alinksbox{
+    width:400px;
+    margin: 0 25px;
+}
+.typemore a{
+    color: #A3A3A3;
+    font-size: 18px;
+    padding: 8px 8px;
+    display: inline-block;
+}
+.typemore a:hover{
+    color: #409AE5;
+}
+.namebox p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #111111;
+    line-height: 74px;
+    padding-left: 8px;
+}
 .typebox .title {
     overflow: hidden;
 }
@@ -196,7 +267,7 @@
 }
 
 .title span {
-    color: #FFFFFF;
+    color: #111111;
     font-size: 20px;
     float: left;
     margin-left: 10px;
@@ -208,10 +279,10 @@
     margin-top: 18px;
 }
 
-.type a {
-    color: #FFFFFF;
+.type a{
+    color: #A3A3A3;
     font-size: 18px;
-    padding: 0 20px;
+    padding: 0 8px;
 }
 
 .type a:hover {
@@ -222,6 +293,8 @@
     height: 88px;
     width: 100%;
     margin-bottom: 20px;
+    padding-left: 24px;
+    position: relative;
 }
 
 .industrybox .title {
@@ -237,6 +310,8 @@
 .usebox {
     height: 88px;
     width: 100%;
+    padding-left: 24px;
+    position: relative;
 }
 
 .usebox .title {
@@ -251,7 +326,7 @@
 
 .content .banner {
     margin-left: 20px;
-    width: 900px;
+    width: 960px;
     height: 100%;
     overflow: hidden;
     position: relative;
@@ -267,7 +342,7 @@
 /* 热门ppt S */
 
 .hot .hot-head {
-    margin-top: 30px;
+    margin-top: 20px;
     height: 40px;
     width: 100%;
     overflow: hidden;
@@ -299,18 +374,21 @@
 .hot .hot-content {
     width: 100%;
     overflow: hidden;
+    padding-bottom: 6px;
 }
 
 .hot .ppt {
     float: left;
     width: 23%;
-    height: 485px;
+    height: 467px;
     background: #FFFFFF;
     border: 1px solid #e5e5e5;
     margin: 0 1%;
-    margin-top: 30px;
+    margin-top: 10px;
 }
-
+.hot .ppt:hover{
+    box-shadow: 0 0 6px #bebebe;
+}
 .ppt .pptimg {
     height: 400px;
     width: 100%;
@@ -354,14 +432,16 @@
 
 }
 .ppt .pptinfo {
-    height: 40px;
+    height: 20px;
     width: 100%;
 }
-
+.pptinfo a:hover p{
+    color: #409AE5;
+}
 .pptinfo p {
     font-size: 16px;
     color: #656565;
-    margin: 10px 0 10px 20px;
+    margin: 6px 0 0 12px;
 }
 
 .pptinfo .scorebox {
@@ -388,8 +468,8 @@
 }
 
 .swbox .star {
-    height: 20px;
-    line-height: 17px;
+    height: 40px;
+    line-height: 50px;
     width: 160px;
     font-size: 16px;
     color: yellow;
@@ -405,7 +485,7 @@
     color: red;
 }
 
-.swbox .watch {
+/* .swbox .watch {
     display: block;
     width: 100px;
     height: 20px;
@@ -413,9 +493,9 @@
     background-size: 20px;
     padding-left: 24px;
     color: #656565;
-}
+} */
 
-.scorebox .download {
+/* .scorebox .download {
     width: 80px;
     height: 40px;
     line-height: 36px;
@@ -425,7 +505,7 @@
     font-size: 20px;
     color: #656565;
     padding-left: 30px;
-}
+} */
 
 .recomm {
     margin-top: 10px;
