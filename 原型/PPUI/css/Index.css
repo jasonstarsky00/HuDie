@@ -1,135 +1,4 @@
-/* 头部 S */
 
-.top {
-    width: 100%;
-    height: 50px;
-    background: #34E89F;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0px;
-    z-index: 999;
-}
-
-.top-nav {
-    height: 50px;
-    margin: 0 auto;
-}
-
-.min {
-    width: 1280px;
-    background: #34E89F;
-}
-
-.logobox {
-    width: 100px;
-    text-align: center;
-}
-
-.logobox img {
-    cursor: pointer;
-}
-
-.menu {
-    width: 600px;
-    height: 50px;
-}
-
-.menu ul {
-    overflow: hidden;
-}
-
-.menu li {
-    float: left;
-    text-align: center;
-    padding: 0 15px;
-}
-
-.menu li a {
-    display: block;
-    height: 50px;
-    line-height: 50px;
-    font-size: 16px;
-    color: #FFFFFF;
-}
-
-.menu li a:hover {
-    color: #409AE5;
-}
-
-.search {
-    width: 340px;
-    height: 50px;
-    padding-right: 46px;
-}
-
-.search input {
-    background: url('../images/search.png') no-repeat transparent;
-    background-size: 30px;
-    background-position: 97% 0px;
-    border: 1px solid #FFFFFF;
-    border-radius: 10px;
-    color: #FFFFFF;
-    height: 32px;
-    margin: 8px 0;
-    padding-right: 46px;
-    padding-left: 30px;
-    width: 80%;
-}
-
-.search input:focus {
-    box-shadow: 0 0 6px #FFFFFF
-}
-
-.search input::-webkit-input-placeholder {
-    /* WebKit browsers */
-    color: #FFFFFF;
-    font-size: 14px;
-}
-
-.search input::-moz-placeholder {
-    /* Mozilla Firefox 19+ */
-    color: #FFFFFF;
-    font-size: 14px;
-}
-
-.search input::-ms-input-placeholder {
-    /* Internet Explorer 10+ */
-    color: #FFFFFF;
-    font-size: 14px;
-}
-
-.userbox button {
-    width: 100px;
-    height: 36px;
-    margin: 7px 4px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.userbox .logo {
-    background: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    box-shadow: 0 0 8px #FFFFFF;
-    color: #49AE85;
-}
-
-.userbox .logo:hover {
-    box-shadow: 0 0 0;
-}
-
-.userbox .reg {
-    background: transparent;
-    border: 1px solid #FFFFFF;
-    color: #FFFFFF;
-}
-
-.userbox .reg:hover {
-    box-shadow: 0 0 8px #FFFFFF;
-}
-
-
-/* 头部 E */
 
 
 /* 内容 S */
@@ -427,8 +296,19 @@
     color: #409AE5;
 }
 .pptinfo p {
-    font-size: 16px;
     color: #656565;
+    height:22px;
+    font-size: 16px;
+    line-height: 22px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    width: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
     margin: 6px 0 0 12px;
 }
 .recomm {
