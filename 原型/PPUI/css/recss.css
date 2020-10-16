@@ -198,3 +198,6 @@ input {
 .clear:after{content:"";display:block;clear:both;}
 
 .clear{zoom:1;}
+i{
+    font-style:normal
+}

@@ -1,0 +1,340 @@
+.main{
+    width: 1280;
+
+}
+.main .mainleft{
+    width: 900px;
+}
+.main .mainriht{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 90px;
+    width: 370px;
+}
+.titlebox{
+    background-color: #FFFFFF;
+    
+    height: 50px;
+    width: 900PX;
+}
+.titlebox .title{
+    width: 740px;
+    height: 100%;
+}
+.titlebox .title p{
+    color: #000000;
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 12px;
+}
+.titlebox .time{
+    width: 160px;
+    height: 100%;
+}
+.titlebox .time p{
+    height: 50px;
+    line-height: 60px;
+
+}
+.pptbox{
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    width: 900px;
+}
+.videobox{
+    height: 520px;
+    width: 860px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.pptbox .imgbot{
+    width: 900px;
+    text-align: center;
+}
+.imgbot img{
+    width: 860px;
+}
+
+
+/* 右侧 S */
+.infobox .author{
+    background-color: #FFFFFF;
+    height: 80px;
+    width: 100%;
+
+}
+.author .author-head{
+    height: 100%;
+    width: 80px;
+}
+.author-head .head{
+    height: 60px;
+    width: 60px;
+}
+.head img{
+    border-radius: 50%;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 60px;
+}
+.author .author-right{
+    width:290px;
+    height: 80px;
+}
+.author-right .author-name{
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+.author-name p{
+    color: #000000;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    height: 100%;
+    line-height: 80px;
+    overflow: hidden;
+    width: 100px;
+
+}
+.author-name button{
+    border:1px solid #34E89F;
+    background-color: #34E89F;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    height: 30px;
+    width: 76px;
+}
+.author-name a{
+    background-color: #34E89F;
+    color: #FFFFFF;
+    font-size: 12px;
+    position: absolute;
+    padding-left: 8px;
+    padding-right: 8px;
+    top: 25PX;
+    left: 110PX;
+    height: 30px;
+    line-height: 34px;
+    text-align: center;
+    
+}
+.author-name button:hover{
+    box-shadow: 0 0 6px #34E89F;
+    color: #409AE5;
+}
+.author-name a:hover{
+    box-shadow: 0 0 6px #34E89F;
+    color: #409AE5;
+}
+/* .author-right .signature{
+    height: 18px;
+    width: 100%;
+}
+.signature p{
+    font-size: 12px;
+    height: 100%;
+    line-height: 18px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.signature span{
+    color: #181717;
+} */
+
+.infobox  .info{
+    background-color: #FFFFFF;
+    height: 270px;
+    margin-top: 10px;
+    width: 100%;
+}
+.info .pptinfo-title{
+    height: 64px;
+    padding-top: 30px;
+    width: 100%;
+}
+.pptinfo-title p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    height: 100%;
+    line-height: 34px;
+    padding-left: 40px;
+}
+.info .pricebox,
+.info.typebox,
+.info .pptmodelbox,
+.info .characterbox,
+.info .copyrightbox,
+.info .updatebox
+{
+    height: 34px;
+    width: 100%;
+}
+
+.pricebox .price-title,
+.pricebox .price-centent,
+.typebox .type-title,
+.typebox .type-content,
+.pptmodelbox .pptmodel-title,
+.pptmodelbox .pptmodel-content,
+.characterbox .charcter-title,
+.copyrightbox .copyright-title,
+.updatebox .update-title
+{
+    color: #888888;
+    line-height: 34px;
+    width: 116px;
+}
+.characterbox .charcter-content,
+.copyrightbox .copyright-content,
+.updatebox .update-content
+{
+    color: #888888;
+    line-height: 34px;
+    width: 240px;
+}
+.charcter-content a:hover{
+    color: #409AE5;
+}
+.pricebox .price-title,
+.typebox .type-title,
+.pptmodelbox .pptmodel-title,
+.characterbox .charcter-title,
+.copyrightbox .copyright-title,
+.updatebox .update-title
+{
+    padding-left: 40px;
+}
+.copyrightbox .copyright-i{
+    background-color:#c4c4c4;
+    border-radius: 50%;
+    color: #FFFFFF;
+    cursor: default;
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    position: relative;
+    width: 16px;
+}
+.copyrightbox .copyright-i:hover .statement{
+    display: block;
+}
+.copyright-i .statement{
+    position: absolute;
+    display: none;
+    color: #af9178;
+    right: -40px;
+    top: 30px;
+    height: 236px;
+    width: 370px;
+    background-color: #FFFFFF;
+    
+}
+.statement h4{
+    height: 40px;
+    line-height: 40px;
+}
+.statement p{
+    line-height: 18px;
+    text-indent: 2em;
+    text-align: left;
+    padding-top:4px;
+    padding-bottom: 4px;
+}
+.infobox .operatingbox{
+    background-color: #FFFFFF;
+    height: 60px;
+    margin-top: 10px;
+    width: 100%;
+}
+.operatingbox span{
+    background: url("../images/Favorites01.png") no-repeat;
+    background-size: 40px;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 40px;
+}
+.operatingbox span:hover{
+    background: url("../images/Favorites02.png") no-repeat;
+    background-size: 40px;
+}
+.operatingbox button{
+    background-color: #34E89F;
+    border: 1px solid #34E89F;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    height: 42px;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 180px;
+}
+.operatingbox button:hover{
+    box-shadow: 0 0 6px #34E89F;
+}
+.leaderboardbox{
+    background-color: #FFFFFF;
+    height: 240px;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+.leaderboardbox .title{
+    border-left: 4px solid #34E89F;
+    font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 200px;
+}
+.leaderboardbox ul{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.leaderboardbox a{
+    display: inline-block;
+    font-size: 14px;
+    color: #333333;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.leaderboardbox  i{
+    background-color: #879299;
+    color: #FFFFFF;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    margin-right: 12px;
+}
+.leaderboardbox .i-first{
+    background-color: #fa4e57;
+}
+.leaderboardbox .second{
+    background-color: #fa7a53;
+}
+.leaderboardbox .thrid{
+    background-color: #fbc258;
+}
+/* 右侧 E */
