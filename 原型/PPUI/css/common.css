@@ -160,3 +160,83 @@ main{
     width: 1280px;
     margin: 0 auto;
 }
+
+/* 标签 S */
+.morebox{
+    height: 72px;
+    width: 100%;
+    position: relative;
+}
+.morebox .descript{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.descript p{
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    color: #6c6b6b;
+}
+.descript span{
+    
+    display: inline-block;
+    width: 58px;
+    height: 36px;
+    background-color: blue;
+    background: url('../images/down-pull.png') no-repeat;
+    background-size: 18px;
+    background-position-x: 33px;
+    background-position-y: 4px;
+    text-align: left;
+    cursor: pointer;
+}
+.morebox .more{
+    display: none;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    width: 100%;
+}
+.more span{
+    width: 76px;
+}
+.more .more-types{
+    width: 1200px;
+}
+.more a{
+    display: inline-block;
+    color: #6c6b6b;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-right:1px solid #b6b6b6;
+    height: 16px;
+    font-size: 12px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+.more a:last-child{
+    border-right:none;
+}
+.more a:hover{
+    color: #409AE5;
+}
+/* 标签 E */
+/* footer S */
+footer{
+    height: 100px;
+    margin-top: 40px;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 40px;
+}
+footer p{
+    display: inline-block;
+    color: #676b6f;
+}
+footer a{
+    color:#676b6f;
+}
+/* footer E */

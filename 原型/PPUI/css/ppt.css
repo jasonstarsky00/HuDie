@@ -199,80 +199,14 @@
     background-color: #34E89F;
     color: #FFFFFF;
 }
-.morebox{
-    height: 72px;
-    width: 100%;
-    position: relative;
-}
-.morebox .descript{
-    height: 100%;
-    width: 100%;
-    text-align: center;
-}
 
-.descript p{
-    height: 36px;
-    line-height: 36px;
-    color: #6c6b6b;
-}
-.descript span{
-    display: inline-block;
-    width: 58px;
-    height: 36px;
-    background-color: blue;
-    background: url('../images/down-pull.png') no-repeat;
-    background-size: 18px;
-    background-position-x: 33px;
-    background-position-y: 4px;
-    text-align: left;
-    cursor: pointer;
-}
-.morebox .more{
-    display: none;
-    position: absolute;
-    top: 56px;
-    left: 0;
-    width: 100%;
-}
-.more span{
-    width: 76px;
-}
-.more .more-types{
-    width: 1200px;
-}
-.more a{
-    display: inline-block;
-    color: #6c6b6b;
-    padding-right: 12px;
-    padding-left: 12px;
-    
-    height: 22px;
-    margin-right: 6px;
-    margin-bottom: 6px;
-}
-.more a:hover{
-     background-color: #FFFFFF;
-}
+
 .fenge{
     height: 1px;
     width: 100%;
     background-color: #dddddd;
 }
-footer{
-    height: 100px;
-    margin-top: 40px;
-    width: 100%;
-    background-color: #000000;
-    text-align: center;
-    padding-top: 40px;
-}
-footer p{
-    display: inline-block;
-    color: #676b6f;
-}
-footer a{
-    color:#676b6f;
-}
+
 
 
 
