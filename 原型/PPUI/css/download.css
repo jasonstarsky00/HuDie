@@ -1,0 +1,135 @@
+.pptbox{
+    margin-top: 10px;
+    width: 100%;
+}
+.pptbox .pptimg{
+    height: 400px;
+    width: 23%;
+    overflow: hidden;
+    border: 1px solid #34e89f;
+}
+.pptbox .pptinfo{
+    height: 400px;
+    margin-left: 50px;
+    width: 800px;
+}
+.pptinfo .ppt-title{
+    border-bottom: 1px solid #dcdcdc;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+}
+.ppt-title h4{
+    color: #000000;
+    height: 100%;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    width: 100%;
+}
+.pptinfo .infobox{
+    margin-top: 10px;
+}
+.infobox .pricebox,
+.infobox .formatbox,
+.infobox .filesizebox
+{
+    height: 34px;
+}
+.pricebox .price-title,
+.formatbox .format-title,
+.filesizebox .filesize-title
+{
+    height: 100%;
+    color: #888888;
+    line-height: 34px;
+    width: 76px;
+}
+.pricebox .price-content,
+.formatbox .format-content,
+.filesizebox .filesize-content
+{
+    height: 100%;
+    color: #888888;
+    line-height: 34px;
+    width: 116px;
+}
+.pptinfo .download{
+    height: 80px;
+    width: 200px;
+}
+.download button{
+    background: url('../images/download01.png') no-repeat;
+    background-size: 22px;
+    background-position-x: 28px;
+    background-position-y: 10px;
+    background-color: #34E89F;
+    border: 1px solid #34E89F;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    height: 42px;
+    margin-top: 30px;
+    width: 180px;
+}
+.download button:hover{
+    box-shadow: 0 0 6px #34E89F;
+}
+.similarbox{
+    margin-top: 10px;
+    width: 100%;
+}
+.similarbox .similar-title{
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.similar-title span{
+    border-left: 4px solid #34E89F;
+    font-size: 20px;
+    padding-left: 20px;
+    width: 100px;
+}
+.similarpptbox .ppt{
+    float: left;
+    height: 437px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    margin-top: 20px;
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 23%;
+}
+.ppt .imgbox{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.imgbox img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.6s;
+}
+.ppt img:hover {
+    transform: scale(1.08);
+}
+.ppt p{
+    color: #656565;
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    width: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.ppt p:hover {
+    color: #409AE5;
+}
