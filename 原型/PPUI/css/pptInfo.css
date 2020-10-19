@@ -317,7 +317,16 @@
     font-size: 14px;
     color: #333333;
     padding-top: 6px;
-    padding-bottom: 6px;
+    padding-bottom: 4px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.leaderboardbox a:hover{
+    color: #409AE5;
 }
 .leaderboardbox  i{
     background-color: #879299;

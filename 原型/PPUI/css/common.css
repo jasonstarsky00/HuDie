@@ -157,8 +157,7 @@
 /* 面包碎导航 E */
 
 main{
-    width: 1280px;
-    margin: 0 auto;
+    width: 100%;
 }
 
 /* 标签 S */
@@ -240,3 +239,56 @@ footer a{
     color:#676b6f;
 }
 /* footer E */
+
+
+/* 分页 S */
+.main-child{
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.pagebox{
+    margin-top: 50px;
+    height: 86px;
+    width: 100%;
+}
+.pagebox .page{
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    width: 680px;
+}
+.page .first{
+    width: 60px;
+    text-align: left;
+}
+.page .pages{
+    width: 560px;
+    text-align: center;
+}
+.page .last{
+    width: 60px;
+    text-align: right;
+}
+.page a{
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding-right: 12px;
+    padding-left: 12px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    color: #34E89F;
+}
+.page a:hover:not(.active){
+    background-color: #dadada;
+    color: #FFFFFF;
+}
+.page .active{
+    background-color: #34E89F;
+    color: #FFFFFF;
+}
+/* 分页 E */

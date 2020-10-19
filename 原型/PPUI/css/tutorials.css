@@ -1,0 +1,212 @@
+.topcatbox{
+    
+    height: 60px;
+    width: 100%;
+}
+.topcatbox ul{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.topcatbox li{
+    float: left;
+    font-size: 0;
+    height: 40px;
+    margin-right: 10px;
+}
+.topcatbox li a{
+    display:inline-block;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    height: 100%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 120px;
+}
+
+.topcatbox ul li  .active{
+    color: #FFFFFF;
+    background-color: #34E89F;
+}
+.topcatbox li a:hover{
+    color: #FFFFFF;
+    background-color: #34E89F;
+}
+.tutorialsbox{
+    margin-top: 20px;
+}
+
+.tutorialsbox .tutorials-content{
+    
+    margin-top: 20px;
+    width: 100%;
+}
+.tutorialsbox .contentboxparent{
+    background-color: #FFFFFF;
+}
+.tutorialsbox .contentbox{
+    height: 100%;
+    width:960px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.contentbox .content{
+    background-color: #FFFFFF;
+    height: 200px;
+    width: 100%
+}
+.contentbox .content:hover{
+    background-color: #f2f2f2;
+}
+.contentbox .content:hover .imgbox img{
+    transform: scale(1.08);
+}
+.contentbox .imgbox{
+    height: 166px;
+    margin-top: 17px;
+    margin-right: 17px;
+    margin-bottom: 17px;
+    margin-left: 17px;
+    width:280px;
+    overflow: hidden;
+}
+.imgbox img{
+    height: 100%;
+    width: 100%;
+    transition: all .2s;
+}
+.contentbox .textbox{
+    height: 166px;
+    margin-top: 17px;
+    width: 606px;
+}
+
+.textbox .a-block{
+    display: block;
+}
+.textbox .a-block:hover{
+    color: #34E89F;
+}
+.a-block h2{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.a-block p{
+    font-size: 14px;
+    color: #888;
+    line-height: 24px;
+    height: 48px;
+    overflow: hidden;
+    margin-bottom: 14px;
+    max-width: 615px;
+}
+.textbox h4{
+    font-size: 12px;
+    font-weight: normal;
+    color: #a7a7a7;
+    line-height: 23px;
+    height: 23px;
+    overflow: hidden;
+}
+.textbox h4 i{
+    font-style: normal;
+    margin-right: 15px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.textbox h4  .tag a{
+    color: #a7a7a7;
+    display: inline-block;
+    padding: 0 5px;
+    margin: 0 5px;
+    background: #fbfbfd;
+    border-radius: 3px;
+}
+.textbox h4  .tag a:hover{
+    background-color: #34E89F;
+    color: #FFFFFF;
+}
+.tutorialsbox  .recommbox{
+    background-color: #FFFFFF;
+    border-left: 1px solid #eff1f4;
+    margin-left: 10px;
+    width: 310px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+}
+.tutorialsbox  .recomm-title{
+    height: 40px;
+    width: 100%;
+}
+.recomm-title span{
+    color: #000000;
+    display: block;
+    border-bottom: 1px solid #eff1f4;
+    font-size: 20px;
+    font-weight: 600;
+    height: 100%;
+    line-height: 40px;
+    text-align: left;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    padding-left: 10px;
+    width: 290px;
+}
+.recommbox .titlebox{
+    margin-top: 20px;
+    padding-left: 10px;
+
+}
+.titlebox li{
+    float: left;
+    width: 100%;
+}
+.titlebox li a{
+    display: block;
+    font-size: 14px;
+    height: 46px;
+    line-height: 28px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    padding-top: 20px;
+}
+.titlebox li a:hover{
+    color: #409AE5;
+}
+.titlebox li a i{
+    background-color: #879299;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    height: 26px;
+    width: 20px;
+}
+.titlebox li a .first{
+    background-color: #fa4e57;
+}
+.titlebox li a .second{
+    background-color: #fa7a53;
+}
+.titlebox li a .third{
+    background-color: #fbc258;
+}
+.tutrorals-page{
+    background-color: #eff1f4;
+    height: 110px;
+    padding-top: 20px;
+    width: 100%;
+}
