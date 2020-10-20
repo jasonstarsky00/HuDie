@@ -127,10 +127,9 @@
     height: 400px;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    
 }
 .ppt img{
-    height: 100%;
     width: 100%;
     transition: all 0.6s;
 }

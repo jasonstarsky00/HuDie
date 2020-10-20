@@ -1,0 +1,178 @@
+.topcatbox{
+    background-color: #FFFFFF;
+    height: 60px;
+    margin-top: 10px;
+    width: 100%;
+}
+.topcatbox ul{
+    padding-top: 10px;
+}
+.topcatbox li{
+    float: left;
+    font-size: 0;
+    height: 40px;
+    margin-right: 10px;
+}
+.topcatbox li a{
+    display:inline-block;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    height: 100%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 120px;
+}
+
+.topcatbox ul li  .active{
+    color: #FFFFFF;
+    background-color: #34E89F;
+}
+.topcatbox li a:hover{
+    color: #FFFFFF;
+    background-color: #34E89F;
+}
+.contentbox{
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    width:100%
+}
+.contentbox .title{
+    
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 100px;
+    width: 100%;
+}
+.title h1{
+    font-size: 34px;
+    color: #000000;
+}
+.contentbox .fenge{
+    margin-top: 20px;
+    height: 2px;
+    width: 100%;
+    background-color: #ededed;
+}
+.contentbox .contentwarp{
+    width: 100%;
+}
+.contentwarp .contentwarp-fl{
+    background-color: #FFFFFF;
+    width: 880px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+
+}
+.contentwarp .contentwarp-fr{
+    width: 400px;
+}
+.contentwarp-fl .content{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.content h4{
+    color: #333;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.content p{
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+.content .img-zomg{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.content .img-zomg img{
+    width: 100%;
+}
+.content ul{
+    margin-bottom: 30px;
+    margin-left: 2.8em;
+}
+.content ul li{
+    list-style: circle;
+    margin-bottom: .5em;
+}
+.content ul li a{
+    border-bottom: 1px solid #525252;
+    word-break: break-all;
+}
+.content ul li a:hover{
+    color: #409AE5;
+}
+.prenextbox{
+    background-color: #FFFFFF;
+    width: 1000px;
+    height: 100px;
+    margin: 40px auto;
+}
+.prenextbox a:hover .pre .img img{
+    transform: scale(1.08);
+}
+.prenextbox a:hover .next .img img{
+    transform: scale(1.08);
+
+}
+.prenextbox a:hover span{
+    color: #34E89F;
+}
+.prenextbox span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.prenextbox p{
+    font-size: 16px;
+    line-height: 16px;
+    height: 32px;
+    width: 340px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+.prenextbox .prebox,.prenextbox .nextbox{
+    width: 50%;
+}
+.prenextbox .prebox{
+    height: 100%;
+}
+.prenextbox .nextbox{
+    height: 100%;
+}
+.prebox .pre,.nextbox .next{
+    height: 100%;
+    width: 100%;
+}
+.pre .img,.next .img{
+    height: 100%;
+    width: 160px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.pre .img img,.next .img img{
+    width: 100%;
+    height: 100%;
+    transition: all .2s;
+}
+.pre .pre-titlt,.next .next-title{
+    padding-top: 18px;
+}

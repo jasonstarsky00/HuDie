@@ -1,11 +1,11 @@
 .topcatbox{
-    
+    background-color: #FFFFFF;
     height: 60px;
+    margin-top: 10px;
     width: 100%;
 }
 .topcatbox ul{
     padding-top: 10px;
-    padding-left: 10px;
 }
 .topcatbox li{
     float: left;
