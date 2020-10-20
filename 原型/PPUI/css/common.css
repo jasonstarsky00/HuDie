@@ -41,7 +41,6 @@
 .menu li {
     float: left;
     text-align: center;
-    padding: 0 15px;
 }
 
 .menu li a {
@@ -50,13 +49,15 @@
     line-height: 50px;
     font-size: 16px;
     color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .menu li  .active{
     background: #1bd98c;
-    color: #409AE5;
+    color: #457EE7;
 }
 .menu li a:hover {
-    color: #409AE5;
+    color: #457EE7;
 }
 
 .search {
@@ -114,7 +115,7 @@
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
     box-shadow: 0 0 8px #FFFFFF;
-    color: #49AE85;
+    color: #34E89F;
 }
 
 .userbox .logo:hover {
@@ -151,7 +152,7 @@
     text-align: left;
 }
 .dn a:hover{
-    color: #409AE5;
+    color: #457EE7;
 }
 
 /* 面包碎导航 E */
@@ -292,3 +293,31 @@ footer a{
     color: #FFFFFF;
 }
 /* 分页 E */
+
+.who-swiperbox .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    left: 200px;
+    right: auto;
+}
+.who-swiperbox .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    right: 200px;
+    left: auto;
+}
+
+
+@media(min-width:1601px){
+    .min{
+        width: 1600px;
+    }
+    .main-child{
+        width: 1600px;
+    }
+    .main-child .content .banner{
+        width: 1260px;
+    }
+    .ctbox .ct{
+        width: 1600px;
+    }
+    .more .more-types{
+        width: 1600px;
+    }
+}

@@ -6,7 +6,7 @@
     height: 400px;
     width: 23%;
     overflow: hidden;
-    border: 1px solid #34e89f;
+    border: 4px solid #FFFFFF;
 }
 .pptbox .pptinfo{
     height: 400px;
@@ -128,6 +128,7 @@
     width: 100%;
     padding-left: 4px;
     padding-right: 4px;
+    margin-top: 4px;
 }
 .ppt p:hover {
     color: #409AE5;
